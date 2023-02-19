@@ -16,6 +16,13 @@
         </li>
         <li class="pl-4">
             <a
+                title="{{ $page->siteName }} Talks"
+                href="/talks"
+                class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/talks') ? 'active text-blue-500' : 'text-gray-800 hover:text-blue-500' }}"
+            >Talks</a>
+        </li>
+        <li class="pl-4">
+            <a
                 title="{{ $page->siteName }} Contact"
                 href="/contact"
                 class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/contact') ? 'active text-blue-500' : 'text-gray-800 hover:text-blue-500' }}"
