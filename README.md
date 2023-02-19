@@ -81,7 +81,7 @@ Files that don't require processing (such as images and fonts) can be added dire
 
 ---
 
-## Building Your Site
+# Building Your Site
 
 Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
 
@@ -93,6 +93,9 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, prod
 npm run dev
 ```
+
+or just run:
+`npm run watch`
 
 ## Deploying Your Site
 Using GitHub Pages
