@@ -1,11 +1,15 @@
 @extends('_layouts.main')
 
 @section('body')
+    <h1>Rissa Jackson - Taking Programming to New Heights</h1>
+    <img src="/assets/img/snow.jpeg"
+        alt="Snow acro photo"
+        class="flex h-full w-full rounded-lg bg-contain mx-auto md:float-right my-6 md:ml-10">
     @foreach ($posts->where('featured', true) as $featuredPost)
         <div class="w-full mb-6">
-            @if ($featuredPost->cover_image)
+            {{-- @if ($featuredPost->cover_image)
                 <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} cover image" class="mb-6">
-            @endif
+            @endif --}}
 
             <p class="text-gray-700 font-medium my-2">
                 {{ $featuredPost->getDate()->format('F j, Y') }}
