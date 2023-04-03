@@ -22,8 +22,12 @@
         >Read More</a>
     </div>
     <div class="w-168">
-        <img src="/assets/img/about.png"
-            alt="About image"
-            class="rounded-full w-168 object-contain bg-contain mx-auto md:float-right my-6 md:ml-10">
+        @if ($talk->icon_image)
+            <img src="{{ $talk->icon_image }}" alt="{{ $talk->title }} cover image" class="rounded-full w-168 object-contain bg-contain mx-auto md:float-right my-6 md:ml-10">
+        @else
+            <img src="/assets/img/about.png"
+                alt="About image"
+                class="rounded-full w-168 object-contain bg-contain mx-auto md:float-right my-6 md:ml-10">
+        @endif
     </div>
 </div>

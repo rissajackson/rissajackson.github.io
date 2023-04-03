@@ -5,6 +5,7 @@ title: Longhorn PHP Keynote - Changing Your Story
 date: 2022-11-04
 description: This is my Longhorn PHP 2022 Keynote talk.
 cover_image: /assets/img/post-cover-image-2.png
+icon_image: /assets/img/longhorn.jpeg
 ---
 
 <h3>Summary</h3>

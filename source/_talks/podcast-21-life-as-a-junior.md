@@ -5,6 +5,7 @@ title: Twenty Percent Time - Life as a Junior Developer
 date: 2021-10-15
 description: This is my Changing Your Story Podcast.
 cover_image: /assets/img/post-cover-image-2.png
+icon_image: /assets/img/twenty.png
 ---
 
 <h3>Summary</h3>
