@@ -17,7 +17,6 @@ return [
             'path' => 'blog/{filename}',
         ],
         'talks' => [
-            'author' => 'Rissa Jackson',
             'sort' => '-date',
             'path' => 'talks/{filename}',
         ],
