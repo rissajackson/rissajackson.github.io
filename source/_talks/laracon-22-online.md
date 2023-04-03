@@ -3,6 +3,7 @@ extends: _layouts.post
 section: content
 title: Laracon Online - Is There Any Problem Git Interactive Rebase Can’t Solve?
 date: 2022-09-14
+featured: true
 description: This is my Laracon 2022 Online talk.
 cover_image: /assets/img/post-cover-image-2.png
 ---

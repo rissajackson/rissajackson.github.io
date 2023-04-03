@@ -3,6 +3,7 @@ extends: _layouts.post
 section: content
 title: Podcast - Things Worth Learning - Changing Your Story
 date: 2021-12-20
+featured: true
 description: This is my Changing Your Story Podcast.
 cover_image: /assets/img/post-cover-image-2.png
 ---
