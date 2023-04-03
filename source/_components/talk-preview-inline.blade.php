@@ -1,5 +1,5 @@
 <div class="flex">
-    <div class="w-full mb-4">
+    <div class="w-full mb-2 mr-4">
         <p class="text-gray-700 font-medium my-2">
             {{ $talk->getDate()->format('F j, Y') }}
         </p>

@@ -1,11 +1,14 @@
 @extends('_layouts.main')
 
 @section('body')
-    <h1 class="text-reboot-600"
-    >Rissa Jackson - Taking Programming to New Heights</h1>
-    <img src="/assets/img/snow.jpeg"
+    <h1 class="text-cadmiumViolet-600">
+        Hello I'm Rissa
+    </h1>
+    <h2>I'm a full-stack developer, public speaker, and mentor who is taking programming to new heights!</h2>
+    <img src="/assets/img/Hawaii.jpeg"
         alt="Snow acro photo"
         class="flex h-full w-full rounded-lg bg-contain mx-auto md:float-right my-6 md:ml-10">
+    <h2 class="text-cadmiumViolet-600">Featured Talks</h2>
     @foreach ($talks->where('featured', true) as $featuredTalk)
         <div class="w-full mb-6">
             {{-- @if ($featuredPost->cover_image)
@@ -25,12 +28,12 @@
             <p class="mt-0 mb-4">{!! $featuredTalk->getExcerpt() !!}</p>
 
             <a href="{{ $featuredTalk->getUrl() }}" title="Read - {{ $featuredTalk->title }}" class="uppercase tracking-wide mb-4">
-                Read
+                Read More
             </a>
         </div>
 
         @if (! $loop->last)
-            <hr class="border-b my-6">
+            <hr class="border-b border-gray-500 my-6">
         @endif
     @endforeach
 
