@@ -7,20 +7,30 @@ return [
     'production' => false,
     'siteName' => 'Rissa Jackson',
     'siteDescription' => 'Generate an elegant blog with Jigsaw',
-    'siteAuthor' => 'Author Name',
+    'siteAuthor' => 'Rissa Jackson',
 
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Author Name', // Default author, if not provided in a post
+            'author' => 'Rissa Jackson', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
+        ],
+        'talks' => [
+            'author' => 'Rissa Jackson',
+            'sort' => '-date',
+            'path' => 'talks/{filename}',
         ],
         'categories' => [
             'path' => '/blog/categories/{filename}',
             'posts' => function ($page, $allPosts) {
                 return $allPosts->filter(function ($post) use ($page) {
                     return $post->categories ? in_array($page->getFilename(), $post->categories, true) : false;
+                });
+            },
+            'talks' => function ($page, $allTalks) {
+                return $allTalks->filter(function ($talk) use ($page) {
+                    return $talk->categories ? in_array($page->getFilename(), $talk->categories, true) : false;
                 });
             },
         ],
