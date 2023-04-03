@@ -25,10 +25,10 @@ pagination:
         <li >Twenty Percent Time - <a href="https://twentypercenttime.simplecast.com/episodes/rissa-jackson-life-as-a-junior-developer">Life as a Junior Developer</a></li>
         <li>Things Worth Learning - <a href="https://www.youtube.com/watch?v=vgnndyxqiKY">Changing Your Story</a></li>
     </ul>
-@foreach ($pagination->items as $post)
-        @include('_components.post-preview-inline')
+@foreach ($pagination->items as $talk)
+        @include('_components.talk-preview-inline')
 
-        @if ($post != $pagination->items->last())
+        @if ($talk != $pagination->items->last())
             <hr class="border-b my-6">
         @endif
     @endforeach
