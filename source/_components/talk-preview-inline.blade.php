@@ -7,7 +7,7 @@
         <h2 class="text-3xl mt-0">
             <a
                 href="{{ $talk->getUrl() }}"
-                title="Read more 1 - {{ $talk->title }}"
+                title="Read more - {{ $talk->title }}"
                 class="text-gray-900 font-extrabold"
             >{{ $talk->title }} </a>
         </h2>
@@ -17,9 +17,9 @@
 
         <a
             href="{{ $talk->getUrl() }}"
-            title="Read more 2 - {{ $talk->title }}"
+            title="Read more - {{ $talk->title }}"
             class="uppercase font-semibold tracking-wide mb-2"
-        >Read </a>
+        >Read More</a>
     </div>
     <div class="w-168">
         <img src="/assets/img/about.png"
