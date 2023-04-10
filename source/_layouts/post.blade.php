@@ -5,13 +5,13 @@
 @endphp
 
 @section('body')
+   <h1 class="leading-none mb-2">{{ $page->title }}</h1>
+
+    <p class="text-gray-700 text-xl md:mt-0">{{ date('F j, Y', $page->date) }}</p>
+
     @if ($page->cover_image)
         <img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
     @endif
-
-    <h1 class="leading-none mb-2">{{ $page->title }}</h1>
-
-    <p class="text-gray-700 text-xl md:mt-0">{{ date('F j, Y', $page->date) }}</p>
 
     @if ($page->categories)
         @foreach ($page->categories as $i => $category)
