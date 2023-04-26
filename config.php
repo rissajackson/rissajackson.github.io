@@ -6,7 +6,7 @@ return [
     'baseUrl' => '',
     'production' => false,
     'siteName' => 'Rissa Jackson',
-    'siteDescription' => 'Generate an elegant blog with Jigsaw',
+    'siteDescription' => 'A full-stack software developer, public speaker, and mentor who is taking programming to new heights!',
     'siteAuthor' => 'Rissa Jackson',
 
     // collections
