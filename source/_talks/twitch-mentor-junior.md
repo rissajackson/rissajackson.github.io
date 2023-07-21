@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 title: Mentorship and Becoming a Junior Developer
 date: 2023-04-3
-featured: true
+featured: false
 description: This is a Twitch Stream with Alex Six on Mentorship and Junior Developers
 cover_image: /assets/img/post-cover-image-2.png
 icon_image: /assets/img/baby-corgi.jpeg

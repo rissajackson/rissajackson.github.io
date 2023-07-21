@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 title: How to Twitch Stream
 date: 2023-05-15
-featured: true
+featured: false
 description: This is a Twitch stream about how to twitch stream
 cover_image: /assets/img/post-cover-image-2.png
 icon_image: /assets/img/baby-corgi.jpeg
