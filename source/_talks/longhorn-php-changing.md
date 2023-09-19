@@ -15,3 +15,5 @@ We all have stories we tell ourselves, about who we are, and what we do, and we 
 <a href="https://www.longhornphp.com/">Longhorn PHP</a> is a tech conference brought to you by members of the PHP community in Austin and beyond. Longhorn PHP is a community-run, regionally focused conference.
 
 I had the opportunity to be a keynote speaker and talk about Changing Your Story. Check out the <a href="https://joind.in/event/longhorn-php-conference-2022/changing-your-story">joind.in</a> for my talk!
+
+See a similar version of this talk that I did for the Things Worth Learning podcast also titled Changing Your story <a href="https://www.youtube.com/watch?v=vgnndyxqiKY">here</a>!
