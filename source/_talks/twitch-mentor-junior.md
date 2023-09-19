@@ -6,7 +6,6 @@ date: 2023-04-3
 featured: false
 description: This is a Twitch Stream with Alex Six on Mentorship and Junior Developers
 cover_image: /assets/img/post-cover-image-2.png
-icon_image: /assets/img/baby-corgi.jpeg
 ---
 
 <h3>Summary</h3>
