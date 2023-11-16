@@ -14,6 +14,11 @@
         Talks
     </a>
 
+     <a title="{{ $page->siteName }} Discord" href="/discord"
+        class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/discord') ? 'active text-blue-600' : '' }}">
+        Discord
+    </a>
+
     {{-- <a title="{{ $page->siteName }} Contact" href="/contact"
         class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/contact') ? 'active text-blue-600' : '' }}">
         Contact
