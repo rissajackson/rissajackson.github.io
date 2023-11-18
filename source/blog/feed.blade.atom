@@ -9,3 +9,9 @@ site_path: blog
         @include('_components.post-as-rss-item')
     @endforeach
 @endsection
+
+@section('talks')
+    @foreach ($talks as $entry)
+        @include('_components.talk-as-rss-item')
+    @endforeach
+@endsection

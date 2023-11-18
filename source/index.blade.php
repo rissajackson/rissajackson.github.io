@@ -4,7 +4,7 @@
     <h1 class="text-cadmiumViolet-600">
         Hello I'm Rissa
     </h1>
-    <h2>I'm a full-stack developer, public speaker, and mentor who is taking programming to new heights!</h2>
+    <h2>I'm a full-stack software developer, public speaker, and mentor who is taking programming to new heights!</h2>
     <img src="/assets/img/Hawaii.jpeg"
         alt="Snow acro photo"
         class="flex h-full w-full rounded-lg bg-contain mx-auto md:float-right my-6 md:ml-10">
