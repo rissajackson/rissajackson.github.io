@@ -3,6 +3,7 @@ extends: _layouts.post
 section: content
 title: LaraconAU - Tapping into the Power of Junior Developers
 date: 2023-11-17
+featured: true
 description: This is my LaraconAU talk.
 cover_image: /assets/img/post-cover-image-2.png
 icon_image: /assets/img/laraconau.jpeg
