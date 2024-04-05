@@ -6,6 +6,7 @@ date: 2022-09-14
 featured: true
 description: This is my Laracon 2022 Online talk.
 cover_image: /assets/img/post-cover-image-2.png
+icon_image: /assets/img/laracon-online.jpeg
 ---
 
 <h2><a href="https://www.youtube.com/watch?v=f4QShF42c6E&t=27156s&ab_channel=LaraconOnline">Is There Any Problem Git Interactive Rebase Can’t Solve?</a></h2>
@@ -15,3 +16,7 @@ Git rebase can be pretty intimidating, and even more so for a newer developer. H
 
 <h3>About</h3>
 Laracon Online is a Laravel conference that is virtually streamed on Youtube to allow anyone to watch the talks live or afterwards. This was a 15 minute lightning talk that covers the basics to intermediate level of git interactive rebase. Watch or listen to my talk <a href="https://www.youtube.com/watch?v=f4QShF42c6E&t=27156s&ab_channel=LaraconOnline">here</a>!
+console.log()
+myemail@mail.com
+
+console.log()

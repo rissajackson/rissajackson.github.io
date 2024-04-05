@@ -6,6 +6,7 @@ date: 2022-1-28
 featured: true
 description: This is my Changing Your Story Podcast.
 cover_image: /assets/img/post-cover-image-2.png
+icon_image: /assets/img/worth-learning.jpeg
 ---
 
 <h3>Summary</h3>
