@@ -23,7 +23,7 @@
     </div>
     <div class="w-168">
         @if ($talk->icon_image)
-            <img src="{{ $talk->icon_image }}" alt="{{ $talk->title }} cover image" class="rounded-full object-contain mx-auto min-w-52 min-h-52 max-w-52 max-h-52 md:float-right my-6 md:ml-10">
+            <img src="{{ $talk->icon_image }}" alt="{{ $talk->title }} cover image" class="rounded-full object-contain mx-auto min-w-52 min-h-52 max-w-56 max-h-56 md:float-right my-6 md:ml-10">
         @else
             <img src="/assets/img/about.png"
                 alt="About image"
