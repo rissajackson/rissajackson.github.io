@@ -8,7 +8,7 @@
 
         <meta property="og:title" content="{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
         <meta property="og:type" content="{{ $page->type ?? 'website' }}" />
-        <meta property="og:image" content="https://rissajackson.github.io/assets/img/RissaJ.jpeg"/>
+        <meta property="og:image" content="https://rissajackson.github.io/assets/img/RissaJ.jpg"/>
         <meta property="twitter:title" content="Rissa Jackson's Website" />
         <meta property="twitter:card" content="summary">
         <meta property="twitter:image" content="https://rissajackson.github.io/assets/img/RissaJ.jpeg"/>
