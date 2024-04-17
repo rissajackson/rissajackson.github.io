@@ -3,6 +3,7 @@ extends: _layouts.post
 section: content
 title: LaraconEU - Window Magic, Command Line Wizardry
 date: 2024-02-05
+featured: true
 description: This is my LaraconEU talk.
 cover_image: /assets/img/post-cover-image-2.png
 icon_image: /assets/img/laraconeu.jpeg
