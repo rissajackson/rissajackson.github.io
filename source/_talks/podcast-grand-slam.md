@@ -2,7 +2,7 @@
 extends: _layouts.post
 section: content
 title: Ripples - The Grand Slam with Rissa Jackson
-date: 2021-10-15
+date: 2024-04-16
 description: Discussing my Laracon Grand Slam
 cover_image: /assets/img/post-cover-image-2.png
 icon_image: /assets/img/ripples.jpeg
