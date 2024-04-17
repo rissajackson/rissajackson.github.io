@@ -12,5 +12,5 @@ icon_image: /assets/img/twenty.png
 Junior Developers can infuse a team with energy, enthusiasm, and fresh ideas. They also provide an opportunity for experienced engineers to develop and grow their mentorship and leadership abilities! In this podcast I talk about what it is like to be a junior developer, and an apprentice at the company Tighten. I also give tips on how to get that first job and what can help a junior thrive!
 
 <h3>About</h3>
-<a href="https://twentypercenttime.simplecast.com/">Twenty Percent Time</a> is a podcast for programmers, designers, business owners, & more from from Tighten that was hosted by Dave Hicking and Zuzana Kunckova.
+<a href="https://twentypercenttime.simplecast.com/">Twenty Percent Time</a> is a podcast for programmers, designers, business owners, & more from Tighten that was hosted by Dave Hicking and Zuzana Kunckova.
 Listen to the episode <a href="https://twentypercenttime.simplecast.com/episodes/rissa-jackson-life-as-a-junior-developer">here</a>!
