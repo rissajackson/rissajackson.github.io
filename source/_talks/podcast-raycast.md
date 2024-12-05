@@ -1,7 +1,7 @@
 ---
 extends: _layouts.post
 section: content
-title: What's in my Raycast - with Rissa Jackson
+title: What's In My Raycast - with Rissa Jackson
 date: 2024-05-10
 description: Discussing what's in my Raycast
 cover_image: /assets/img/post-cover-image-2.png
